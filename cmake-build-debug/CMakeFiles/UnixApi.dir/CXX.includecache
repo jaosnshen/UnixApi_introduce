@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shen/桌面/unix/UnixApi_introduce/FIleSystem/FileDemo.h
+../include/apue.h
+/home/shen/桌面/unix/UnixApi_introduce/include/apue.h
+fcntl.h
+-
+
+/home/shen/桌面/unix/UnixApi_introduce/include/apue.h
+sys/types.h
+-
+sys/stat.h
+-
+sys/termios.h
+-
+sys/ioctl.h
+-
+stdio.h
+-
+stdlib.h
+-
+stddef.h
+-
+string.h
+-
+unistd.h
+-
+signal.h
+-
+
+/home/shen/桌面/unix/UnixApi_introduce/main.cpp
+iostream
+-
+include/apue.h
+/home/shen/桌面/unix/UnixApi_introduce/include/apue.h
+FIleSystem/FileDemo.h
+/home/shen/桌面/unix/UnixApi_introduce/FIleSystem/FileDemo.h
+

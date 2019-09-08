@@ -1,4 +1,5 @@
 /*
+/*
  * Our own header, to be included before all standard system headers.
  */
 #ifndef	_APUE_H

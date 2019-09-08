@@ -1,0 +1,4 @@
+/home/shen/桌面/clion-2019.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/shen/桌面/unix/UnixApi_introduce
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shen/桌面/unix/UnixApi_introduce/cmake-build-debug

@@ -1,0 +1,3 @@
+/home/shen/桌面/unix/UnixApi_introduce/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/shen/桌面/unix/UnixApi_introduce/cmake-build-debug/CMakeFiles/UnixApi.dir
+/home/shen/桌面/unix/UnixApi_introduce/cmake-build-debug/CMakeFiles/edit_cache.dir

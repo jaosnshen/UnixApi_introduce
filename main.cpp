@@ -1,5 +1,6 @@
 #include <iostream>
 #include "include/apue.h"
+#include "FIleSystem/FileDemo.h"
 
 int globvar=6;
 
@@ -34,16 +35,22 @@ int main() {
 //
 //    printf("pid = %ld ,glob=%d ,var =%d \n",(long)getpid(),globvar,var);
 
-    if (lseek(STDIN_FILENO,0,SEEK_CUR)==-1){
-        printf("cannot seek\n");
-    }else{
+//    if (lseek(STDIN_FILENO,0,SEEK_CUR)==-1){
+//        printf("cannot seek\n");
+//    }else{
+//
+//        printf("seek OK\n");
+//
+//    }
 
-        printf("seek OK\n");
-
-    }
 
 
+      char buf1[]="暑期";
+    char buf2[]="ABCDE";
+    FileDemo *mFileDemo=new FileDemo(buf1,buf2);
+    mFileDemo->run();
 
+    delete mFileDemo;
     exit(0);
 
 

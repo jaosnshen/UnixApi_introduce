@@ -17,22 +17,22 @@ void FileDemo::run() {
 
 
 
-    char cerror[]="create error";
+    const char cerror[]="create error\n";
 
-    if(fd=creat("f2ile.hole",FILE_MODE)<0){
-        err_sys(cerror);
+    if(fd=creat("file.txt",FILE_MODE)<0){
+      printf(cerror);
     }
 
     if (write(fd,buf1,10)!=10){
-        err_sys("buf1 write error");
+        printf("buf1 write error\n");
     }
 
     if (lseek(fd,16384,SEEK_SET)!=-1){
-        err_sys("lseek error");
+        printf("lseek error\n");
     }
 
     if (write(fd,buf2,10)!=10){
-        err_sys("buf2 write error");
+        printf("buf2 write error\n");
     }
     exit(0);
 
