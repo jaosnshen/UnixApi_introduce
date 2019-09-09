@@ -45,8 +45,8 @@ int main() {
 
 
 
-      char buf1[]="暑期";
-    char buf2[]="ABCDE";
+      char buf1[]="abcd23eabcde2e12";
+    char buf2[]="ABCDEABCDEABCDE";
     FileDemo *mFileDemo=new FileDemo(buf1,buf2);
     mFileDemo->run();
 

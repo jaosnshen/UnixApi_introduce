@@ -24,6 +24,8 @@ public:
 //    extern C/**/ {
 
 //    }
+
+   void fdrun();
 };
 
 

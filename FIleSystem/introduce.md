@@ -44,5 +44,22 @@ off_t lseek(int fd,off_t offset,int whence)
         currpos=lseek(fd,0,SEEK_CUR)
         
         
+    + ssize_t read(int fd,void *buf,size_t nbytes);//返回读取的长度，0表示文件末尾，-1表示读取失败
+    + ssize_t write(int fd,const void *buffer,size_t nbytes)
+内核使用3种数据结构表示打开文件
+1.每个进程都有一个记录项，记录项种包含一张打开文件描述符表，可将其是为一个矢量，每个描述符占其中一项。与每个文件描述符相关联的是：
+a.文件描述符标志（close_on_exec）
+b.指向一个文件表项的指针
+
+2.内核为所有打开文件维持一张表，每个文件表项包含:
+3.每个打开文件 都有一个v节点的结构。v节点包含了一个问价那类型和堆此文件进行各种操作函数的指针。
+                     
+    +void pwrite() pread() //同步方法
+    dup(int fd) dup2(int fd,int fd2)//复制描述文件
+    int fsync(int fd)
+    //只是将所有修改过的块缓冲区排队写队列，然后就返回，它并等待实际写磁盘操作结束。update系统守护进程周期性调用sync函数。保证了定期冲洗(flush)
+    int fdatasync(int fd)  只影响数据
+    void sync(void)   影响数据和更新文件属性
+        
         
         
