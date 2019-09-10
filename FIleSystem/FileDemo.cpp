@@ -10,13 +10,7 @@ this->buf2=buf2;
 this->buf1=buf1;
 }
 
-void FileDemo::fdrun() {
-    int val;
 
-    if
-
-
-}
 
 void FileDemo::run() {
 

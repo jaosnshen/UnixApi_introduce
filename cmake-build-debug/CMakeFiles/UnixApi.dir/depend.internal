@@ -5,7 +5,12 @@ CMakeFiles/UnixApi.dir/FIleSystem/FileDemo.cpp.o
  /home/shen/桌面/unix/UnixApi_introduce/FIleSystem/FileDemo.cpp
  /home/shen/桌面/unix/UnixApi_introduce/FIleSystem/FileDemo.h
  /home/shen/桌面/unix/UnixApi_introduce/include/apue.h
+CMakeFiles/UnixApi.dir/Process/ProcessDemo.cpp.o
+ /home/shen/桌面/unix/UnixApi_introduce/Process/ProcessDemo.cpp
+ /home/shen/桌面/unix/UnixApi_introduce/Process/ProcessDemo.h
+ /home/shen/桌面/unix/UnixApi_introduce/include/apue.h
 CMakeFiles/UnixApi.dir/main.cpp.o
  /home/shen/桌面/unix/UnixApi_introduce/FIleSystem/FileDemo.h
+ /home/shen/桌面/unix/UnixApi_introduce/Process/ProcessDemo.h
  /home/shen/桌面/unix/UnixApi_introduce/include/apue.h
  /home/shen/桌面/unix/UnixApi_introduce/main.cpp

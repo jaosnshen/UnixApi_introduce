@@ -92,6 +92,12 @@
 		<Unit filename="/home/shen/桌面/unix/UnixApi_introduce/FIleSystem/FileDemo.h">
 			<Option target="UnixApi"/>
 		</Unit>
+		<Unit filename="/home/shen/桌面/unix/UnixApi_introduce/Process/ProcessDemo.cpp">
+			<Option target="UnixApi"/>
+		</Unit>
+		<Unit filename="/home/shen/桌面/unix/UnixApi_introduce/Process/ProcessDemo.h">
+			<Option target="UnixApi"/>
+		</Unit>
 		<Unit filename="/home/shen/桌面/unix/UnixApi_introduce/main.cpp">
 			<Option target="UnixApi"/>
 		</Unit>

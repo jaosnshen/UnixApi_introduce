@@ -150,6 +150,33 @@ FIleSystem/FileDemo.cpp.s:
 	$(MAKE) -f CMakeFiles/UnixApi.dir/build.make CMakeFiles/UnixApi.dir/FIleSystem/FileDemo.cpp.s
 .PHONY : FIleSystem/FileDemo.cpp.s
 
+Process/ProcessDemo.o: Process/ProcessDemo.cpp.o
+
+.PHONY : Process/ProcessDemo.o
+
+# target to build an object file
+Process/ProcessDemo.cpp.o:
+	$(MAKE) -f CMakeFiles/UnixApi.dir/build.make CMakeFiles/UnixApi.dir/Process/ProcessDemo.cpp.o
+.PHONY : Process/ProcessDemo.cpp.o
+
+Process/ProcessDemo.i: Process/ProcessDemo.cpp.i
+
+.PHONY : Process/ProcessDemo.i
+
+# target to preprocess a source file
+Process/ProcessDemo.cpp.i:
+	$(MAKE) -f CMakeFiles/UnixApi.dir/build.make CMakeFiles/UnixApi.dir/Process/ProcessDemo.cpp.i
+.PHONY : Process/ProcessDemo.cpp.i
+
+Process/ProcessDemo.s: Process/ProcessDemo.cpp.s
+
+.PHONY : Process/ProcessDemo.s
+
+# target to generate assembly for a file
+Process/ProcessDemo.cpp.s:
+	$(MAKE) -f CMakeFiles/UnixApi.dir/build.make CMakeFiles/UnixApi.dir/Process/ProcessDemo.cpp.s
+.PHONY : Process/ProcessDemo.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... FIleSystem/FileDemo.o"
 	@echo "... FIleSystem/FileDemo.i"
 	@echo "... FIleSystem/FileDemo.s"
+	@echo "... Process/ProcessDemo.o"
+	@echo "... Process/ProcessDemo.i"
+	@echo "... Process/ProcessDemo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

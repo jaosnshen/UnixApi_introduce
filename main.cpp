@@ -1,6 +1,7 @@
 #include <iostream>
 #include "include/apue.h"
 #include "FIleSystem/FileDemo.h"
+#include "Process/ProcessDemo.h"
 
 int globvar=6;
 
@@ -46,12 +47,14 @@ int main() {
 
 
       char buf1[]="abcd23eabcde2e12";
-    char buf2[]="ABCDEABCDEABCDE";
-    FileDemo *mFileDemo=new FileDemo(buf1,buf2);
-    mFileDemo->run();
-
-    delete mFileDemo;
-    exit(0);
-
+//    char buf2[]="ABCDEABCDEABCDE";
+//    FileDemo *mFileDemo=new FileDemo(buf1,buf2);
+//    mFileDemo->run();
+//
+//    delete mFileDemo;
+//    exit(0);
+    ProcessDemo *mProcessDemo=new ProcessDemo(buf1);
+    mProcessDemo->run();
+    delete(mProcessDemo);
 
 }

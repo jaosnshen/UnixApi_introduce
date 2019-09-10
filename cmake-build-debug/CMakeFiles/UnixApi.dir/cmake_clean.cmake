@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/UnixApi.dir/main.cpp.o"
   "CMakeFiles/UnixApi.dir/FIleSystem/FileDemo.cpp.o"
+  "CMakeFiles/UnixApi.dir/Process/ProcessDemo.cpp.o"
   "UnixApi.pdb"
   "UnixApi"
 )
